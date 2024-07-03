@@ -4,6 +4,10 @@
 
 Este projeto foi desenvolvido como exercicio de aula, com o objetivo de replicar a interface do Spotify de 2016. O foco principal foi aprender e aplicar os conceitos de Bootstrap, juntamente com conhecimentos de HTML, CSS e JavaScript adquiridos no Módulo 3, da Formação Dev Full Stack Junior da [+prati](https://www.maisprati.com.br/) e [codifica](https://www.codificaedu.com.br/).
 
+## Link da aplicação
+
+[Spotify](https://clonespot.netlify.app/)
+
 ## Objetivos do Projeto 🎯
 
 - Aprender Bootstrap: Utilizar a documentação do Bootstrap para implementar componentes responsivos e estilizados.
