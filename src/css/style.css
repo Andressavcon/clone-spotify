@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.navbar-custom {
+  background-color: #00000099;
+}
+
+.navbar-brand img {
+  width: 7rem;
+  height: auto;
+}
+
+.hero,
+.usability {
+  height: 100vh;
+  background-image: url('../img/capa.png'),
+    linear-gradient(to right, #cb3582, #9227c3);
+  background-size: contain;
+  background-position: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  perspective: 1000px;
+  background-attachment: fixed;
+}
+
+.btn-custom {
+  background-color: #9227c3;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.btn-custom:hover {
+  background-color: #9227c3;
+  color: #fff;
+  opacity: 1;
+}
+
+.infos-images,
+.infos-content {
+  width: 50%;
+}
+
+.infos-images img {
+  width: 40%;
+  height: auto;
+}
+
+.usability-content {
+  width: 35%;
+}
+
+.usability-images {
+  width: 40%;
+}
+
+.usability-images {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-40%, -40%) rotate(30deg);
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.usability-images img {
+  width: 50%;
+}
+
+.color-purple {
+  color: #7a24f7;
+}
+
+.color-aqua {
+  color: #9befe1;
+}
+
+footer {
+  background-color: #000;
+}
+
+@media (max-width: 1200px) {
+  .infos-images img {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .infos-images img {
+    width: 50%;
+    height: 20%;
+  }
+}
+
+@media (max-width: 576px) {
+  .infos-images img {
+    width: 50%;
+    height: 20%;
+  }
+}
