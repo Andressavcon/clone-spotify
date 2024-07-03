@@ -41,7 +41,10 @@ npm install
 ## Imagens base 🖼️
 
 ![Img base clone 1](./src/img/clone1.png)
-![Img base clone 2](./src/img/clone2.png){: height="200" } ![Img base clone 3](./src/img/clone3.png){: height="200" } ![Img base clone 4](./src/img/clone4.png){: height="200" }
+<br>
+<img src="./src/img/clone2.png" alt="Img base clone 2" height="200">
+<img src="./src/img/clone3.png" alt="Img base clone 3" height="200">
+<img src="./src/img/clone4.png" alt="Img base clone 4" height="200">
 
 ## Notas Finais 📝
 
